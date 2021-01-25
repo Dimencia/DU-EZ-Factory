@@ -9,7 +9,7 @@ WIP
 3. Link the Prog Board to the Core
 4. Create unit.Start event, and paste in ezfactory Start.lua
 5. Create unit.Tick event, put "industry" in the tick argument, and paste in ezfactory.lua
-6. Create screen.MouseDown (put *,* as the parameters) and paste in ezfactory MouseDown.lua
+6. Create screen.MouseDown (put \*,\* as the parameters) and paste in ezfactory MouseDown.lua
 
 That's it.  Turn on the board and screen, and you should see information about your factory.
 
