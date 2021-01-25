@@ -10,7 +10,7 @@ WIP.  Json export coming once it's more finished
 4. Create unit.Start event, and paste in ezfactory Start.lua
 5. Create unit.Tick event, put "industry" in the tick argument, and paste in ezfactory.lua
 6. Create MouseDown event on the slot that has your screen (it should be the only slot that lets you put this event)
-7. Make the event look like `mouseDown( *,* )` and paste in ezfactory MouseDown.lua
+7. Make the event look like `mouseDown( *  * )` and paste in ezfactory MouseDown.lua
 
 That's it.  Turn on the board and screen, and you should see information about your factory.
 
