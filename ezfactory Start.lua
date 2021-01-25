@@ -2630,6 +2630,17 @@ local industryBySchematic = {}
 
 CategoryView = true
 
+-- Find the elements
+for key, slot in pairs(unit) do
+	if type(slot) == "table" and type(slot.export) == "table" then
+		if slot.getElementIdList then
+			core = slot
+		elseif slot.setHTML then
+			screen = slot
+		end
+	end
+end
+
 local ids = core.getElementIdList()
 for _,id in ipairs(ids) do
     local statusString = core.getElementIndustryStatus(id):gsub("^%s*(.-)%s*$", "%1") -- Trim
