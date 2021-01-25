@@ -1,7 +1,7 @@
 # DU-EZ-Factory
 A simple industry monitoring script that requires only a link to the core
 
-WIP
+WIP.  Json export coming once it's more finished
 
 ## Instructions
 1. Setup a Programming Board and Screen
